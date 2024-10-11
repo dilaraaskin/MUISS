@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Podcast Önerileri</title>
+    <link rel="stylesheet" href="../ü_podcaststyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide">
+        <div
+          class="item"
+          style="background-image: url(../images/Psikopatika.PNG)"
+        >
+          <div class="content">
+            <div class="name">Psikopatika</div>
+            <div class="des">
+              Pınar Sabancı<br /><br /><br />
+              <div>
+                Şimdi Dinle:
+                <br />
+                <a
+                  href="https://open.spotify.com/show/3KpBHmhPaOCbFwdTShKL4F?si=57f42b1c137042a0"
+                  class="link-rengi"
+                  >Spotify Linki</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(../images/EzberBozan.png)"
+        >
+          <div class="content">
+            <div class="name">Ezber Bozan</div>
+            <div class="des">
+              Dr. Deniz Şimşek<br /><br /><br />
+              <div>
+                Şimdi Dinle:
+                <br />
+                <a
+                  href="https://open.spotify.com/show/2yABqKhfG0Vvb6G49U130S?si=3a62861f223d442c"
+                  class="link-rengi"
+                  >Spotify Linki</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url(../images/Bi\ Aile\ Meselesi.jpg)"
+        >
+          <div class="content">
+            <div class="name">Bi Aile Meselesi</div>
+            <div class="des">
+              <br /><br /><br />
+              <div>
+                Şimdi Dinle:
+                <br />
+                <a
+                  href="https://open.spotify.com/show/0nS9PtjnbJvcHwd3j9dpqW?si=c17fc97a170c433a"
+                  class="link-rengi"
+                  >Spotify Linki</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(../images/BuMuYani.png)">
+          <div class="content">
+            <div class="name">Bu Mu Yani</div>
+            <div class="des">
+              <br /><br /><br />
+              <div>
+                Şimdi Dinle:
+                <br />
+                <a
+                  href="https://open.spotify.com/show/5EIiOWjqVsr6WMvzZwjdxV?si=396d2d5232554c6d"
+                  class="link-rengi"
+                  >Spotify Linki</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="
+            background-image: url(../images/OysaHerkesÖldürürSevdiğini.jpeg);
+          "
+        >
+          <div class="content">
+            <div class="name">Oysa Herkes Öldürür Sevdiğini</div>
+            <div class="des">
+              Ebrar Beyza Uçar
+              <br /><br /><br />
+              <div>
+                Şimdi Dinle:
+                <br />
+                <a
+                  href="https://open.spotify.com/show/2mVrK9JgTAzdnEo8a1Zp87?si=2deedbd8a17244bd"
+                  class="link-rengi"
+                  >Spotify Linki</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <script src="../ü_podcast.js"></script>
+
+    <button class="back-button" onclick="goBack()">Önceki sayfaya dön</button>
+    <!-- Geri butonu -->
+    <script>
+      function goBack() {
+        window.history.back(); // Tarayıcının bir önceki sayfaya gitmesini sağlar
+      }
+    </script>
+  </body>
+</html>
